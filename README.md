@@ -1,13 +1,25 @@
-## car-price-predictor
-Predict car prices using machine learning based on vehicle features like mileage, year, and brand.
+# 🚗 Car Price Predictor – Linear Regression
 
-A machine learning project that predicts the price of a car based on key features such as brand, model, year, mileage, fuel type, transmission, and engine size. This tool is ideal for used car marketplaces, dealerships, or individuals looking to estimate vehicle value.
+This project uses a linear regression model to predict car prices based on features such as brand, year, mileage, fuel type, and transmission. It's a simple but powerful example of applying machine learning to a real-world regression problem.
 
----
+## 🧠 What I Did
+- Cleaned and preprocessed the dataset (handling missing values, encoding categorical data)
+- Built a linear regression model using scikit-learn
+- Evaluated performance using R² score and RMSE
+- Visualized model results and predictions
 
-##  Features
+## 🧰 Tech Stack
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib / Seaborn
 
-- Predicts car prices using linear regression model
-- Supports feature engineering and preprocessing
-- Visualizes model performance and feature importance
-- Easily extendable to new datasets or APIs
+## 📊 Sample Features Used
+- Car Brand
+- Year of Manufacture
+- Transmission Type
+- Engine Size
+- Mileage
+- Fuel Type
+
